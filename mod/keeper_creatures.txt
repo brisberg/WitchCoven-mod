@@ -24,6 +24,7 @@
     buildingGroups = {
         "structure" "doors" "floors" "storage" "zones" "library" "beds" "pigsty" "coffins" "beast_cage" "prison"
         "training" "crafting" "laboratory" "jeweller" "orders" "installations" "traps"
+        "wc_special_coven"
     }
     workshopGroups = { "basic" "traps" }
     description = "Lead a secretive Witches' Coven."

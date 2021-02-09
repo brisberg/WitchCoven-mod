@@ -1,0 +1,9 @@
+"wc_special_coven"
+  {
+    {
+      Furniture {{ "DOWN_STAIRS_SANCTUM" }}
+      "Sanctum Entrance"
+      "Structure"
+      "Build an entrance to your Inner Sanctum"
+    }
+	}

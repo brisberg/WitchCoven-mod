@@ -1,0 +1,8 @@
+"DOWN_STAIRS_SANCTUM" inherit "UP_STAIRS"
+{
+  viewId = { "portal" ColorId YELLOW }
+  name = "sanctum portal"
+  constructMessage = none
+  usageType = UsageEffect "use" {Stairs Fx { TELEPORT_OUT }}
+  onBuilt = DOWN_STAIRS
+}
