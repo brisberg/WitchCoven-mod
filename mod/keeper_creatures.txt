@@ -1,0 +1,30 @@
+# Specify playable Keeper creatures
+
+"wc_1_witch_keeper"
+{
+    creatureId = { "WC_WITCH_KEEPER" }
+    tribeAlignment = EVIL
+    immigrantGroups = { "wc_unseen_servant"}
+    technology = {
+        "alchemy"
+        "advanced alchemy"
+        "alchemical conversion"
+        "pig breeding"
+        "iron working"
+        "jewellery"
+        "two-handed weapons"
+        "traps"
+        "archery"
+        "sorcery"
+        "advanced sorcery"
+        "magical weapons"
+        "master sorcery"
+    }
+    initialTech = { "sorcery" }
+    buildingGroups = {
+        "structure" "doors" "floors" "storage" "zones" "library" "beds" "pigsty" "coffins" "beast_cage" "prison"
+        "training" "crafting" "laboratory" "jeweller" "orders" "installations" "traps"
+    }
+    workshopGroups = { "basic" "traps" }
+    description = "Lead a secretive Witches' Coven."
+}

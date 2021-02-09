@@ -1,0 +1,49 @@
+# Player Keeper
+"WC_WITCH_KEEPER"
+  {
+    viewId = { "witch" }
+    name = {
+      name = "Witch Coven"
+      firstNameGen = "FIRST_FEMALE"
+      fullTitle = true
+    }
+    attr = {
+      DAMAGE 10
+      DEFENSE 15
+      SPELL_DAMAGE 30
+    }
+    body = {
+      type = Humanoid MEDIUM
+    }
+    gender = FEMALE
+    chatReactionFriendly = "talks about the moon"
+    chatReactionHostile = "\"Curse you!\""
+    permanentEffects = {
+      MAGIC_RESISTANCE 1
+      NIGHT_VISION 1
+      DISTILLATION_SKILL 1
+    }
+    spells = { "advanced healing" "haste" "defense bonus" "damage bonus" "directed blast" }
+    hatedByEffect = HATE_HUMANS
+    inventory = {
+      { type = "GoldenStaff" prefixChance = 1 }
+      { "Robe"}
+    }
+  }
+
+# wc_unseen_servant immigants
+"WC_UNSEEN_SERVANT" inherit "DARK_ELF"
+  {
+    name = {
+      name = "Unseen Serant"
+      pluralName = "Unseen Servants"
+    }
+    permanentEffects = {
+      INVISIBLE 1
+      NO_CARRY_LIMIT 1
+      SLEEP_RESISTANT 1
+    }
+    skills = {
+      "DIGGING" 0.2
+    }
+  }

@@ -1,0 +1,14 @@
+# Workers for Dark Elf Keeper
+"wc_unseen_servant"
+  {
+    {
+      ids = { "WC_UNSEEN_SERVANT" }
+      traits = { WORKER NO_LIMIT NO_EQUIPMENT }
+      keybinding = CREATE_IMP
+      noAuto = true
+      requirements = {
+        { 1 ExponentialCost "GOLD" 40 5 4 }
+      }
+      initialRecruitment = 4
+    }
+  }

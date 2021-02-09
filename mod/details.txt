@@ -1,0 +1,2 @@
+"Keidence"
+"Adds Witch Coven as a playable Keeper."
